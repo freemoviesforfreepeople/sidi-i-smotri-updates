@@ -1,7 +1,7 @@
 {
-  "versionCode": 34,
-  "versionName": "11.3",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.3/sidi-i-smotri-11.3.apk",
-  "sha256": "8a7dc6a4e3905f6996fc8db42668a23b54bdb65bce84e767bf8fe945ade5b120",
-  "notes": "Компактные настройки и внутренние окна"
+  "versionCode": 35,
+  "versionName": "11.4",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.4/sidi-i-smotri-11.4.apk",
+  "sha256": "2ac7cd7b74a7c69c61c9a88335b1b9385f043d704aba3bdd034cbec61bd12570",
+  "notes": "Исправлено управление плеером, полноэкранный курсор и отправка логов."
 }
