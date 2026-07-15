@@ -1,0 +1,7 @@
+{
+  "versionCode": 30,
+  "versionName": "11.0",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.0/sidi-i-smotri-11.0.apk",
+  "sha256": "3f6d0f92b7d4039603bc2ce776cc3e238854adcdc9d251ae46308bb86925129f",
+  "notes": "Исправлено управление плеером в полноэкранном режиме"
+}
