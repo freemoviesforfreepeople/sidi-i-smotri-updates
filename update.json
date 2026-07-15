@@ -1,7 +1,7 @@
 {
-  "versionCode": 36,
-  "versionName": "11.5",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5/sidi-i-smotri-11.5.apk",
-  "sha256": "9fb4b5412126220cfd884e38340b0fb678f24eacd6b9cb01db132842338390fb",
+  "versionCode": 37,
+  "versionName": "11.5.1",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.1/sidi-i-smotri-11.5.1.apk",
+  "sha256": "084acdbc48c956400855b0ea4641449381c8743941f985ec78d21bea501309bb",
   "notes": "Исправлено управление паузой кликом и кнопкой пульта"
 }
