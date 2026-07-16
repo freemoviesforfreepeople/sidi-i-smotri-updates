@@ -1,7 +1,7 @@
 {
-  "versionCode": 38,
-  "versionName": "11.5.2",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.2/sidi-i-smotri-11.5.2.apk",
-  "sha256": "ba2b23afb86f1031c6d2615d2dd78d6e532c2abb75125020bc49a8fdf8a6c6e7",
-  "notes": "Исправлена пауза кликом и медиакнопкой пульта"
+  "versionCode": 40,
+  "versionName": "11.5.4",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.4/sidi-i-smotri-11.5.4.apk",
+  "sha256": "4527f919fb922b21730c40480ec575d241285ea547e08c7a6f5f9641d90b8aa4",
+  "notes": "Переработаны настройки для телевизора. В заметках добавлены выпадающие списки сезона, серии и перевода."
 }
