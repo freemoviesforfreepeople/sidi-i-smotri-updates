@@ -1,7 +1,7 @@
 {
-  "versionCode": 41,
-  "versionName": "11.5.5-yandex-player-fallback",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.5/sidi-i-smotri-11.5.5.apk",
-  "sha256": "42ee9d09ec06db68a747850c99493af0c4cccb96075a30d9b066a1e5e3b1ae84",
-  "notes": "Исправлена загрузка плеера на устройствах с Yandex WebView. Добавлен адресный fallback при HTTP 404; обычная загрузка на других устройствах не изменена."
+  "versionCode": 42,
+  "versionName": "11.5.6-fullscreen-update-report-fix",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.6/sidi-i-smotri-11.5.6.apk",
+  "sha256": "b9fc70b3faf4a8fe284e96f09feba286064eb2113f518597c3808122822c5ac9",
+  "notes": "Исправлено управление Play/Pause в полноэкранном плеере, добавлен автоматический повтор запуска установщика после скачивания обновления и переработана инструкция по передаче диагностического отчёта через QR-код и ссылку."
 }
