@@ -1,7 +1,7 @@
 {
-  "versionCode": 40,
-  "versionName": "11.5.4",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.4/sidi-i-smotri-11.5.4.apk",
-  "sha256": "4527f919fb922b21730c40480ec575d241285ea547e08c7a6f5f9641d90b8aa4",
-  "notes": "Переработаны настройки для телевизора. В заметках добавлены выпадающие списки сезона, серии и перевода."
+  "versionCode": 41,
+  "versionName": "11.5.5-yandex-player-fallback",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.5/sidi-i-smotri-11.5.5.apk",
+  "sha256": "42ee9d09ec06db68a747850c99493af0c4cccb96075a30d9b066a1e5e3b1ae84",
+  "notes": "Исправлена загрузка плеера на устройствах с Yandex WebView. Добавлен адресный fallback при HTTP 404; обычная загрузка на других устройствах не изменена."
 }
