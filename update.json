@@ -1,7 +1,7 @@
 {
-  "versionCode": 51,
-  "versionName": "11.7.5",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.5/sidi-i-smotri-11.7.5.apk",
-  "sha256": "aebac473963a509748ac3f579ae589b6efc7a8ba4327780af4e62507894903c1",
-  "notes": "Убран неработающий синтетический тап по центру плеера, который скрывал системный курсор. Короткий OK, Enter и аппаратные медиаклавиши в fullscreen больше не подменяются приложением и передаются custom view штатным Android-маршрутом. Неработающая кнопка Play/Pause удалена из панели; в ней остались таймер сна и выход. Это диагностический cleanup-релиз перед выбором дальнейшей модели fullscreen по результату теста встроенного плеера."
+  "versionCode": 52,
+  "versionName": "11.7.6",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.6/sidi-i-smotri-11.7.6.apk",
+  "sha256": "6b344c09c4c576d33c6a33d099f8968a233a5e6959091809dc92b8e6b839c42c",
+  "notes": "Нативный WebChromeClient fullscreen отключён на старом WebView 83: он разрывал рабочий канал ввода cross-origin плеера. Полный экран теперь остаётся обычным WebView с CSS-растянутым iframe; системный курсор, tap по экрану, собственные кнопки плеера и аппаратные медиаклавиши используют тот же маршрут, который подтверждённо работает во встроенном режиме. Полностью удалены PopupWindow-меню, нижняя hover-зона, встроенный курсор и любые fullscreen-тапы. Back возвращает интерфейс приложения; таймер сна перенесён в настройки."
 }
