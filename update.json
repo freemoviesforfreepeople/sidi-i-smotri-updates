@@ -1,7 +1,7 @@
 {
-  "versionCode": 52,
-  "versionName": "11.7.6",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.6/sidi-i-smotri-11.7.6.apk",
-  "sha256": "6b344c09c4c576d33c6a33d099f8968a233a5e6959091809dc92b8e6b839c42c",
-  "notes": "Нативный WebChromeClient fullscreen отключён на старом WebView 83: он разрывал рабочий канал ввода cross-origin плеера. Полный экран теперь остаётся обычным WebView с CSS-растянутым iframe; системный курсор, tap по экрану, собственные кнопки плеера и аппаратные медиаклавиши используют тот же маршрут, который подтверждённо работает во встроенном режиме. Полностью удалены PopupWindow-меню, нижняя hover-зона, встроенный курсор и любые fullscreen-тапы. Back возвращает интерфейс приложения; таймер сна перенесён в настройки."
+  "versionCode": 53,
+  "versionName": "11.7.7",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.7/sidi-i-smotri-11.7.7.apk",
+  "sha256": "d26b72b4b88c9202bf6f6c753f002890ad53db4688e28ef7aa72f79be479dbaf",
+  "notes": "Исправлено появление штатных контролов плеера при движении air-mouse. Внешние OnHoverListener/OnTouchListener удалены: реальные mouse/hover/touch события сначала получает внутренний Chromium WebView. Для WebView 83 включена неблокированная доставка hover и безопасная нормализация ACTION_MOVE без кнопок в ACTION_HOVER_MOVE. Никаких синтетических кликов, fullscreen-меню или второго курсора нет; рабочая пауза не изменялась."
 }
