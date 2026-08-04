@@ -1,7 +1,7 @@
 {
-  "versionCode": 46,
-  "versionName": "11.7",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7/sidi-i-smotri-11.7.apk",
-  "sha256": "bdcb51f24d68ce269ef0d8e396588105d29ef9b639a6d7939f12ce0daf3fe06d",
-  "notes": "Добавлена скрытая fullscreen-панель по долгому OK/Menu, единый video-локатор, таймер сна и быстрый отчёт о проблеме. Системный курсор используется по умолчанию; двойной курсор устранён."
+  "versionCode": 48,
+  "versionName": "11.7.2",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.2/sidi-i-smotri-11.7.2.apk",
+  "sha256": "474b8fceba13da74994059f06e10920ea68d2ee6e1bd53adb5309ae51f74c584",
+  "notes": "Исправления надёжности плеера: видео и звук больше не играют в фоне после Home; при отказе прямого плеера по 401/403 приложение возвращается к совместимому iframe-режиму; стрелка вниз на странице плеера снова листает списки серий и озвучек (панель открывается кнопкой Menu); устранена утечка временного WebView при блокировке рекламных popup; добавлено восстановление после падения рендера WebView (нехватка памяти) без вылета приложения; инспекция WebView отключена в release."
 }
