@@ -1,7 +1,7 @@
 {
-  "versionCode": 42,
-  "versionName": "11.5.6-fullscreen-update-report-fix",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.5.6/sidi-i-smotri-11.5.6.apk",
-  "sha256": "b9fc70b3faf4a8fe284e96f09feba286064eb2113f518597c3808122822c5ac9",
-  "notes": "Исправлено управление Play/Pause в полноэкранном плеере, добавлен автоматический повтор запуска установщика после скачивания обновления и переработана инструкция по передаче диагностического отчёта через QR-код и ссылку."
+  "versionCode": 46,
+  "versionName": "11.7",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7/sidi-i-smotri-11.7.apk",
+  "sha256": "bdcb51f24d68ce269ef0d8e396588105d29ef9b639a6d7939f12ce0daf3fe06d",
+  "notes": "Добавлена скрытая fullscreen-панель по долгому OK/Menu, единый video-локатор, таймер сна и быстрый отчёт о проблеме. Системный курсор используется по умолчанию; двойной курсор устранён."
 }
