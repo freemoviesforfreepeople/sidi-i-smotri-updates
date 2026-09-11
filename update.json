@@ -1,7 +1,7 @@
 {
-  "versionCode": 58,
-  "versionName": "11.7.12-diag",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.12-diag/sidi-i-smotri-11.7.12-diag.apk",
-  "sha256": "54aca72c1b666bedaa4a6dc4625fbd914489e22d21530c0b10ff903a93179190",
-  "notes": "Диагностическая сборка ввода на базе 11.7.8/11.7.6. Поведение плеера не исправляется: добавлено подробное логирование маршрута KEY/hover/touch, изменений focus и touch-mode, окна и embedded fullscreen. Диагностика создаёт отдельный 02a-input-filtered-log.txt. Accessibility fallback/polling из 11.7.11 в этой диагностической базе отсутствует."
+  "versionCode": 59,
+  "versionName": "11.7.13",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.13/sidi-i-smotri-11.7.13.apk",
+  "sha256": "129e0d5fd24390e97a93ea39ed3392d4288d2555080558206835ca14e199636a",
+  "notes": "Добавлен Android MediaSession для стабильного приёма Play/Pause от Button Mapper и других системных медиакнопок независимо от текущего View-focus. Команда направляется напрямую в активный WebView, без JS, coordinate tap и смены фокуса. Длинное нажатие остаётся под контролем Button Mapper. Добавлена защита от двойного срабатывания MediaSession + Activity."
 }
