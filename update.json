@@ -1,7 +1,7 @@
 {
-  "versionCode": 59,
-  "versionName": "11.7.13",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.13/sidi-i-smotri-11.7.13.apk",
-  "sha256": "129e0d5fd24390e97a93ea39ed3392d4288d2555080558206835ca14e199636a",
-  "notes": "Добавлен Android MediaSession для стабильного приёма Play/Pause от Button Mapper и других системных медиакнопок независимо от текущего View-focus. Команда направляется напрямую в активный WebView, без JS, coordinate tap и смены фокуса. Длинное нажатие остаётся под контролем Button Mapper. Добавлена защита от двойного срабатывания MediaSession + Activity."
+  "versionCode": 60,
+  "versionName": "11.7.14",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.14/sidi-i-smotri-11.7.14.apk",
+  "sha256": "447da677d2152ae11385f8d35367df82d8ff9ec9dba2d55a3e67a12311a85b54",
+  "notes": "Стабилизирован ввод на Android TV: air-mouse больше не перетаскивает View-focus при каждом движении, OK по air-mouse отправляется как mouse-click без переключения touch-mode, fullscreen не делает принудительных requestFocus. MediaSession и DOM polling запускаются только после устойчивого window focus; polling меню замедлен и отключён в fullscreen."
 }
