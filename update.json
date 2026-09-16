@@ -1,7 +1,7 @@
 {
-  "versionCode": 60,
-  "versionName": "11.7.14",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.14/sidi-i-smotri-11.7.14.apk",
-  "sha256": "447da677d2152ae11385f8d35367df82d8ff9ec9dba2d55a3e67a12311a85b54",
-  "notes": "Стабилизирован ввод на Android TV: air-mouse больше не перетаскивает View-focus при каждом движении, OK по air-mouse отправляется как mouse-click без переключения touch-mode, fullscreen не делает принудительных requestFocus. MediaSession и DOM polling запускаются только после устойчивого window focus; polling меню замедлен и отключён в fullscreen."
+  "versionCode": 61,
+  "versionName": "11.7.15",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.15/sidi-i-smotri-11.7.15.apk",
+  "sha256": "cf29924b41c5a1b1fea533f5a57b1ced7f6e136bb04caa65f152b37544c5c7dd",
+  "notes": "Исправлен запуск плеера на старом WebView 83: рабочий Stravers больше не остаётся под вечным экраном «Загружаем плеер», playback-ресурсы распознаются до legacy-ветки, добавлен безопасный fallback по таймауту и точечная совместимость Kinobox с :has(). Верхняя полоса вкладок теперь явно показывает горизонтальное продолжение стрелками слева/справа и автоматически прокручивает активную вкладку в область видимости. Стабильная схема fullscreen и ввода 11.7.14 сохранена."
 }
