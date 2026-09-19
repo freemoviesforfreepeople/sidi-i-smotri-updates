@@ -1,7 +1,7 @@
 {
-  "versionCode": 63,
-  "versionName": "12.0",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.0/sidi-i-smotri-12.0.apk",
-  "sha256": "4abb11ad2104956307e483b5971be51cd890e365fcce70a6c254bf9ebe79d71d",
-  "notes": "Player-layer переписан: штатный WebChromeClient fullscreen без JS resize/iframe isolation, overlays, focus/cursor hacks и synthetic mouse click. Playback WebView больше не переписывает сетевые ответы и не получает adblock-инъекции. MediaSession удалён. Сохранены Chromium 83 Kinobox compatibility, loading deadline, диагностика, заметки/избранное, селекторы и стрелки переполнения вкладок."
+  "versionCode": 65,
+  "versionName": "12.2",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.2/sidi-i-smotri-12.2.apk",
+  "sha256": "5a89df36d422fd2f359469926a48fec1fb9cd6a8e75af8633e391347ac6ba50e",
+  "notes": "WebView 120+ player-path: штатный Chromium fullscreen, курсор сохраняется в обычном и fullscreen CustomView, Play/Pause очищен от auto-repeat и дублей Button Mapper. Автоматические рекламные main-frame redirect блокируются, внутренний adblock режет только известные внешние ad-subresources и не трогает Stravers/Kinobox/media/SRI. Интерфейс, вкладки, избранное, заметки и нативные селекторы сохранены."
 }
