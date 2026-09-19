@@ -1,7 +1,7 @@
 {
-  "versionCode": 61,
-  "versionName": "11.7.15",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.15/sidi-i-smotri-11.7.15.apk",
-  "sha256": "cf29924b41c5a1b1fea533f5a57b1ced7f6e136bb04caa65f152b37544c5c7dd",
-  "notes": "Исправлен запуск плеера на старом WebView 83: рабочий Stravers больше не остаётся под вечным экраном «Загружаем плеер», playback-ресурсы распознаются до legacy-ветки, добавлен безопасный fallback по таймауту и точечная совместимость Kinobox с :has(). Верхняя полоса вкладок теперь явно показывает горизонтальное продолжение стрелками слева/справа и автоматически прокручивает активную вкладку в область видимости. Стабильная схема fullscreen и ввода 11.7.14 сохранена."
+  "versionCode": 62,
+  "versionName": "11.7.16",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.16/sidi-i-smotri-11.7.16.apk",
+  "sha256": "f0fe342ad809cee21fc678047eb612b37888a644d69d5424a4b1a95605e92f44",
+  "notes": "Стабилизация плеера на Android TV/WebView 83: возвращена проверенная fullscreen-схема 11.7.6 без отдельного native input-контекста, legacy iframe снова изолируется после загрузки, а при fullscreen реальный iframe/video принудительно растягивается на viewport. Системный air-mouse cursor фиксируется на уровне WebView и больше не зависит от CSS cursor:none внутри cross-origin плеера. MediaSession отключён из-за обнаруженной циклической повторной доставки MEDIA_PLAY_PAUSE на Droidlogic Android 11. Сохранены снятие вечного loading-overlay, совместимость Kinobox, селекторы и стрелки переполнения вкладок."
 }
