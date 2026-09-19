@@ -1,7 +1,7 @@
 {
-  "versionCode": 62,
-  "versionName": "11.7.16",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v11.7.16/sidi-i-smotri-11.7.16.apk",
-  "sha256": "f0fe342ad809cee21fc678047eb612b37888a644d69d5424a4b1a95605e92f44",
-  "notes": "Стабилизация плеера на Android TV/WebView 83: возвращена проверенная fullscreen-схема 11.7.6 без отдельного native input-контекста, legacy iframe снова изолируется после загрузки, а при fullscreen реальный iframe/video принудительно растягивается на viewport. Системный air-mouse cursor фиксируется на уровне WebView и больше не зависит от CSS cursor:none внутри cross-origin плеера. MediaSession отключён из-за обнаруженной циклической повторной доставки MEDIA_PLAY_PAUSE на Droidlogic Android 11. Сохранены снятие вечного loading-overlay, совместимость Kinobox, селекторы и стрелки переполнения вкладок."
+  "versionCode": 63,
+  "versionName": "12.0",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.0/sidi-i-smotri-12.0.apk",
+  "sha256": "4abb11ad2104956307e483b5971be51cd890e365fcce70a6c254bf9ebe79d71d",
+  "notes": "Player-layer переписан: штатный WebChromeClient fullscreen без JS resize/iframe isolation, overlays, focus/cursor hacks и synthetic mouse click. Playback WebView больше не переписывает сетевые ответы и не получает adblock-инъекции. MediaSession удалён. Сохранены Chromium 83 Kinobox compatibility, loading deadline, диагностика, заметки/избранное, селекторы и стрелки переполнения вкладок."
 }
