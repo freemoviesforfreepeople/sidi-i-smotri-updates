@@ -1,7 +1,7 @@
 {
-  "versionCode": 67,
-  "versionName": "12.4",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.4/sidi-i-smotri-12.4.apk",
-  "sha256": "b441f404700ce0ef5c508fd938ab89449e69b63b6d0e2f6f773d0c20efb91649",
-  "notes": "12.4: исправлена загрузка плеера без вечного shield; adblock переведён на лёгкие встроенные правила без 46 МБ подписок/WorkManager и не блокирует неизвестные player/CDN; неактивные вкладки ставятся на паузу; Play/Pause подавляет repeat и delayed source=0 дубль Button Mapper до 1.2 с; synthetic KeyEvent/requestFocus удалены; системный курсор повторно закрепляется на динамическом Chromium fullscreen view; WebView 120+ обязателен."
+  "versionCode": 68,
+  "versionName": "12.5",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.5/sidi-i-smotri-12.5.apk",
+  "sha256": "6f6d775dfc9e0b1b4e2013ffae279494a05596c123785ce5f1f5347e6d77d413",
+  "notes": "12.5: preroll/media-реклама блокируется до media-whitelist, известные ad-host MP4/HLS больше не проходят; VAST/VPAID/VMAP и рекламные endpoint-ы нейтрализуются, main playback на меняющихся CDN сохраняется; добавлена безопасная DOM-очистка рекламных/Telegram overlay; загрузочный shield, lifecycle вкладок, Button Mapper и Chromium fullscreen/cursor фиксы 12.4 сохранены; WebView 120+ обязателен."
 }
