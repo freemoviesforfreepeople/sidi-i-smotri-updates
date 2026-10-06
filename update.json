@@ -1,7 +1,7 @@
 {
-  "versionCode": 69,
-  "versionName": "12.6",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.6/sidi-i-smotri-12.6.apk",
-  "sha256": "8bf0da5f7537836a223122d9ca7110853dedac550ba24086abe17313df303ec3",
-  "notes": "12.6: исправлена загрузка Stravers после регресса 12.5; bootstrap плеера не режется blanket-блокировкой; рекламный media блокируется по контексту; добавлены ручное удаление рекламы с сохранением и отменой, а также настраиваемая подмена адресов."
+  "versionCode": 70,
+  "versionName": "12.7",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.7/sidi-i-smotri-12.7.apk",
+  "sha256": "17a5dc450985a520869c8da7dc019a691a1a347d29e3db37766bcd67c4da2e42",
+  "notes": "12.7: автоматическая блокировка рекламы полностью отключена. Удаление DOM-рекламы выполняется только вручную и сохраняется. Кнопка «Это видеореклама» только ставит диагностический маркер и пишет сетевой контекст, ничего не блокируя. Старые manual ad rules сбрасываются для чистого теста."
 }
