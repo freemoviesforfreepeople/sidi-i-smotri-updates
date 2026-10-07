@@ -1,7 +1,7 @@
 {
-  "versionCode": 70,
-  "versionName": "12.7",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.7/sidi-i-smotri-12.7.apk",
-  "sha256": "17a5dc450985a520869c8da7dc019a691a1a347d29e3db37766bcd67c4da2e42",
-  "notes": "12.7: автоматическая блокировка рекламы полностью отключена. Удаление DOM-рекламы выполняется только вручную и сохраняется. Кнопка «Это видеореклама» только ставит диагностический маркер и пишет сетевой контекст, ничего не блокируя. Старые manual ad rules сбрасываются для чистого теста."
+  "versionCode": 71,
+  "versionName": "12.8",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.8/sidi-i-smotri-12.8.apk",
+  "sha256": "6f43facefb41ac8604c4a4eb1fc1ad8ef41e95e362263dac8f17dd5cb6683f47",
+  "notes": "12.8: безопасная блокировка видеорекламы по диагностике — нейтрализуются только явные VAST/VPAID XML descriptors. moviead55 player_js/mstream2inline, Stravers и обычные media URL не блокируются. Баннеры остаются в ручном режиме с сохранением и отменой."
 }
