@@ -1,1 +1,0 @@
-10.9: fullscreen pointer, remote media keys, poster thumbnails in tabs, playback performance cleanup.

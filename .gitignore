@@ -8,23 +8,46 @@ local.properties
 .cxx/
 captures/
 .externalNativeBuild/
+.kotlin/
+out/
 
-# APK / bundles (publish separately if needed)
+# APK / bundles (publish via GitHub Releases only)
 *.apk
 *.ap_
 *.aab
 *.dex
+*.zip
+*.tar.gz
+*.tgz
 
 # Keystores / secrets
 *.jks
 *.keystore
 keystore.properties
+*.pem
 
 # OS / editor
 .DS_Store
 *.swp
 *~
+*.bak
 
-# Logs / diagnostics dumps
+# Logs / diagnostics dumps / screen captures
 *.log
 logcat*.txt
+screenshots/
+input-capture*/
+*-capture-*/
+*.hprof
+
+# Historical per-version handoff notes (do not re-commit)
+CHANGELOG_*.txt
+REGRESSION_MATRIX_*.md
+SOURCE_MANIFEST_*.txt
+TEST_*.md
+TEST_*.txt
+README_[0-9]*.txt
+smoke-test-*.sh
+smoke_visual_*.py
+*_HANDOFF*/
+Sidi-i-smotri-HANDOFF*/

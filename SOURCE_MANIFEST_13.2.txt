@@ -1,3 +1,0 @@
-Sidi-i-smotri 13.2 source
-Version code: 75
-Primary changes: bounded desktop player height; wrapper-first manual ad picker; schema 132.

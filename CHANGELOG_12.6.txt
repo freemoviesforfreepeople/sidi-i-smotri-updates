@@ -1,9 +1,0 @@
-12.6 / versionCode 69
-- Fixed 12.5 player regression: moviead bootstrap JS is no longer blanket-blocked before Stravers initialization.
-- Removed aggressive generic DOM MutationObserver cleanup.
-- Added context-aware ad-media blocking while leaving unknown/main media allowed.
-- Added manual "Удалить рекламу" picker with persistent per-host DOM rules and undo.
-- Protected video/audio/player iframes and their containers from manual deletion.
-- Added configurable player address replacement rules with radio selection, custom rules and safe no-replacement mode.
-- Retry/render recovery now use the selected replacement rule rather than a hardcoded sspoisk URL.
-- Added player readiness/error logging and Stravers iframe detection.
