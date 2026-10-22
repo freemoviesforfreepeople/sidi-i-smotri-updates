@@ -1,7 +1,7 @@
 {
-  "versionCode": 71,
-  "versionName": "12.8",
-  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v12.8/sidi-i-smotri-12.8.apk",
-  "sha256": "6f43facefb41ac8604c4a4eb1fc1ad8ef41e95e362263dac8f17dd5cb6683f47",
-  "notes": "12.8: безопасная блокировка видеорекламы по диагностике — нейтрализуются только явные VAST/VPAID XML descriptors. moviead55 player_js/mstream2inline, Stravers и обычные media URL не блокируются. Баннеры остаются в ручном режиме с сохранением и отменой."
+  "versionCode": 94,
+  "versionName": "13.21",
+  "apkUrl": "https://github.com/freemoviesforfreepeople/sidi-i-smotri-updates/releases/download/v13.21/sidi-i-smotri-13.21.apk",
+  "sha256": "a6a17e4f542836a7bf0be2fe5c32991c5daadd0e45d00ccf7d2f2cbd6a70207c",
+  "notes": "13.21: always-on скрытие random-id баннеров (nTgQB/odPgP и др.) без режима «Убрать рекламу»; sticky remove вместо CSS-only; один hit-catcher в picker; seeds nTgQB/dcXeb/moviead55. Плеер Stravers/Turbo/kinobox не трогаем."
 }
