@@ -1,0 +1,9 @@
+Сиди и смотри 11.7.13
+
+- Добавлен Android MediaSession для системных Play/Pause.
+- Button Mapper может продолжать обрабатывать физическую кнопку и long-press.
+- Одиночный MEDIA_PLAY_PAUSE приходит через MediaSession даже при нестабильном View-focus.
+- MediaSession активна только пока MainActivity находится на экране.
+- Команда передаётся напрямую активному WebView без JS, координатных тапов и requestFocus().
+- Если то же событие дополнительно приходит в Activity, оно подавляется в коротком dedupe-окне.
+- Сохранено подробное SidiInput/SidiMedia логирование для следующей диагностики.

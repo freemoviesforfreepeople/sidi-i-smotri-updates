@@ -1,0 +1,7 @@
+13.8 / versionCode 81
+
+- Player WebView identifies as Windows Chrome both in HTTP User-Agent and navigator APIs from document start.
+- navigator.platform=Win32, maxTouchPoints=0, userAgentData.mobile=false, userAgentData.platform=Windows.
+- Ad picker no longer protects an unknown iframe merely because it is large; only known player-provider iframe URLs are protected.
+- Known ad wrappers are selected before player-protection checks.
+- Settings cleaned: removed internal VAST-filter/debug entries and duplicate video-ad marker; player card shows Windows Chrome mode.

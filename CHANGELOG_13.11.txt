@@ -1,0 +1,6 @@
+13.11 / versionCode 84
+- Ad picker now performs visual hit-testing at the click coordinates and can select overlays whose CSS pointer-events is none.
+- Video/audio elements remain protected, but a visually covering banner/overlay is selected before the underlying player control.
+- Stable selectors prefer ad/banner/popup/overlay/vpaid/vast classes so saved manual rules survive DOM recreation more reliably.
+- Added PICKER_CANDIDATE diagnostics.
+- Saved player/provider selection from 13.10 remains enabled and restored per movie/series.

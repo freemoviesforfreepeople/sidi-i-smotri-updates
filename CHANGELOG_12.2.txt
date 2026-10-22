@@ -1,0 +1,12 @@
+Сиди и смотри 12.2
+
+- Полный интерфейс приложения возвращён поверх чистого WebView 151 player-path.
+- Fullscreen использует только штатный Chromium WebChromeClient.onShowCustomView().
+- Системный курсор принудительно сохраняется и в обычном WebView, и в Chromium fullscreen CustomView.
+- MEDIA_PLAY_PAUSE: auto-repeat и второй синтетический цикл Button Mapper подавляются; первый реальный DOWN/UP проходит в Chromium.
+- Long press Button Mapper не переназначается приложением.
+- Автоматические main-frame рекламные redirect на beebounder/melbet и неизвестные домены блокируются.
+- Внутренний adblock режет только известные внешние рекламные subresources; Stravers/Kinobox/media/SRI не переписываются.
+- Постоянный polling селекторов плеера отключён; чтение выполняется после загрузки и после явного выбора.
+- При WebView <120 приложение показывает предупреждение с переходом в Google Play.
+- Верхняя полоса вкладок сохраняет стрелки переполнения ‹ ›.

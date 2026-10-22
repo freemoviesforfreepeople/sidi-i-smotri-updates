@@ -1,0 +1,11 @@
+AdblockAndroid
+https://github.com/Edsuns/AdblockAndroid
+License: LGPL-2.1
+
+Its native filtering code is based on Brave ad-block.
+Filter subscriptions are downloaded from AdGuard filter servers.
+
+ZXing Android Embedded
+Copyright Journey Mobile, Inc. and contributors
+License: Apache License 2.0
+https://github.com/journeyapps/zxing-android-embedded

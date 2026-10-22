@@ -1,0 +1,7 @@
+13.9
+- Windows Chrome UA только через WebSettings, без navigator/userAgentData spoof.
+- Kinobox layout больше не форсирует viewport=1280; player и меню рассчитываются по реальной ширине WebView.
+- Меню источников помещается справа в видимой области.
+- Picker больше не считает любой контейнер с video защищённым основным плеером.
+- Выбранный popup поднимается до overlay-контейнера и закрепляется CSS-правилом.
+- Уход movie player-tab на внешний рекламный main-frame URL блокируется.

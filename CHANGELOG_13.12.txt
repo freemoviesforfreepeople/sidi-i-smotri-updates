@@ -1,0 +1,6 @@
+13.12 / versionCode 85
+- «Убрать рекламу»: runtime auto-scan of timed popups / traffaret|adriver|moviead55 iframes with PICKER_CANDIDATE + auto-propose dialog.
+- Fullscreen (bm0): transparent pick overlay forwards clicks to WebView picker (PICKER_FULLSCREEN_*).
+- Expanded known() selectors for traffaret/adriver/moviead55/buzzoola/video-mech banner iframes.
+- After MAIN_MEDIA_FIRST: post-playback suppress for resume/midroll VAST/VPAID and known ad-CDN creatives (AD_RESUME_SUPPRESS_*).
+- On MEDIA_PLAY_PAUSE: DOM hide of VPAID/preroll shells (AD_RESUME_DOM_HIDE) without blocking Stravers bootstrap.

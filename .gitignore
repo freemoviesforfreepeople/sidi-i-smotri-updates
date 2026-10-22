@@ -1,0 +1,30 @@
+# Gradle / Android build
+.gradle/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+.cxx/
+captures/
+.externalNativeBuild/
+
+# APK / bundles (publish separately if needed)
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Keystores / secrets
+*.jks
+*.keystore
+keystore.properties
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Logs / diagnostics dumps
+*.log
+logcat*.txt

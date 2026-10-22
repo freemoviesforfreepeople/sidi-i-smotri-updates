@@ -1,0 +1,1 @@
+11.0: fullscreen cursor overlay, media-key routing, click-to-play-pause.

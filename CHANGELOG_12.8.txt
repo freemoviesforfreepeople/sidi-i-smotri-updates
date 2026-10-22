@@ -1,0 +1,6 @@
+12.8 / versionCode 71
+- По диагностике 2026-10-07 выделена цепочка preroll через code.moviead55.ru/vast2 и downstream VAST/VPAID провайдеров.
+- Добавлена консервативная нейтрализация только явных VAST/VPAID XML descriptors: moviead55 vast2, vqserve VAST, mail.ru VAST, bidster VAST, ussp VAST, showjet VAST и skcrtxr vpaid.xml.
+- Player bootstrap JavaScript (включая moviead55 player_js / mstream2inline), Stravers и любые обычные media URL не блокируются.
+- Баннеры и DOM-реклама остаются в ручном режиме «Удалить рекламу» с сохранением и отменой.
+- Кнопка «Это видеореклама» и passive request logging сохранены для следующей диагностики.

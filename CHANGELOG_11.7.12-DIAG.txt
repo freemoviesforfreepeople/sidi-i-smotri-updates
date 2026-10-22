@@ -1,0 +1,18 @@
+Сиди и смотри 11.7.12-diag (versionCode 58)
+
+Диагностическая сборка. Основа: исходник 11.7.8, который был построен на fullscreen/input базе 11.7.6.
+
+Изменения только для наблюдаемости:
+- SidiInput: лог KEY в Activity до/после dispatch;
+- SidiInput: лог KEY внутри WebView до/после Chromium;
+- лог hover/touch/generic motion с source/tool/buttons/x/y/handled;
+- лог глобальных смен Android focus;
+- лог переходов touch-mode;
+- лог window focus;
+- лог входа/выхода embedded fullscreen;
+- подробный лог условия air-mouse OK -> synthetic touch;
+- отдельный 02a-input-filtered-log.txt в диагностическом архиве;
+- SidiInput/InputDispatcher/WindowManager включены в player-filtered-log.
+
+Новые попытки исправлять ввод не добавлялись.
+Accessibility fallback/polling, появившийся в 11.7.11, в этой базе отсутствует.

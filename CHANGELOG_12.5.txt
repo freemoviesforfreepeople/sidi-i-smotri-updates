@@ -1,0 +1,22 @@
+Сиди и смотри 12.5
+====================
+
+Adblock / preroll:
+- исправлена ключевая ошибка 12.4: media больше не получает безусловный whitelist до проверки рекламы;
+- MP4/HLS/DASH с подтверждённых ad-host/endpoint теперь блокируется быстрым 204;
+- VAST/VPAID/VMAP, preroll/midroll/postroll, moviead55, video-mech, Buzzoola, BestSSP, Traffaret и другие известные рекламные endpoints нейтрализуются;
+- основной playback на неизвестном/меняющемся CDN не режется без сильного рекламного признака;
+- рекламные popup/main-frame redirect блокируются до проверки разрешённой player-цепочки;
+- добавлена лёгкая DOM-очистка баннеров/promo/Telegram/floating ads в main frame, с защитой video и iframe Stravers/Kinobox.
+
+Player loading:
+- adblock выполняется до markPlayerReady, поэтому рекламный ролик больше не считается основным playback;
+- пустые VAST/204 responses возвращаются сразу, чтобы player мог перейти к основному контенту без ожидания таймаута;
+- loading shield остаётся визуальным, не перехватывает input и снимается по commit/finish/deadline.
+
+Сохранены исправления 12.4:
+- WebView 120+;
+- lifecycle вкладок;
+- фильтрация Button Mapper source=0/repeat;
+- без synthetic KeyEvent/touch и player requestFocus;
+- штатный Chromium fullscreen и системный курсор.

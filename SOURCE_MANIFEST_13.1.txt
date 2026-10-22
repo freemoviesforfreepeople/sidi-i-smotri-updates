@@ -1,0 +1,3 @@
+Sidi-i-smotri 13.1 source
+versionCode=74
+Primary changes: player auto-scroll/height, overlay manual ad picker, cross-origin ad iframe selection, schema 131.

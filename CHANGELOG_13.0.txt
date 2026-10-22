@@ -1,0 +1,12 @@
+13.0 / versionCode 73
+
+- Player WebView переведён в desktop layout: wide viewport + overview mode + desktop UA.
+- На player-page принудительно задаётся viewport width=1366, чтобы Kinobox не скрывал desktop selector источников.
+- Player iframe/video больше не должен схлопываться в узкую полоску: крупнейший не-рекламный media frame получает безопасную минимальную высоту относительно viewport.
+- Добавлен лог PLAYER_DESKTOP_LAYOUT с фактическим viewport и размером найденного media frame.
+- Ручной режим «Убрать рекламу» исправлен: выбранный DOM-элемент получает временный token и скрывается сразу после подтверждения.
+- Правила ручного удаления теперь сохраняют selector + tag + href + text и имеют fallback matching на следующей загрузке.
+- Старые неработающие manual ad rules сбрасываются переходом схемы хранения на 130.
+- «Отменить последнее удаление» восстанавливает элементы по rule id.
+- Защита video/audio/iframe и контейнеров плеера от ручного удаления сохранена.
+- VAST no-fill/CORS поведение 12.9 сохранено без изменений main media/bootstrap.

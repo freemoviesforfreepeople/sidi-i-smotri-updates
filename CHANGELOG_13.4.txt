@@ -1,0 +1,8 @@
+13.4 / versionCode 77
+
+- Постоянно скрываются рекламные элементы, подтверждённые диагностикой: #movie_video, div.topAdPad, #tgWrapper и динамические overlay-контейнеры с логированным шаблоном ID.
+- Точечный MutationObserver повторно удаляет только эти известные рекламные элементы, если рекламный код создаёт их заново.
+- target=_blank/window.open рекламных URL (AdHigh/USSP/MovieAd/Buzzoola/VQServe и др.) больше не подменяет текущую player-tab; popup блокируется.
+- Kinobox player ограничен до 920 CSS px, source-menu принудительно размещается справа 240 px и остаётся видимым.
+- Desktop viewport снижен до 1280 и убран глобальный min-width, который раздувал плеер.
+- VAST no-fill/CORS и защита основного Stravers/main media сохранены.

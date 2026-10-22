@@ -1,0 +1,1 @@
+11.4: player controls receive clicks in fullscreen; single auto-hiding cursor; stronger media-key fallback.
